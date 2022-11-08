@@ -1,0 +1,357 @@
+{
+  "books":[
+    {
+      "id":1,
+      "name":"Blackwater",
+      "actual_price":200,
+      "discount_price":156,
+      "category":"comics_book",
+      "author":"Jeannette Arroyo",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Blackwater.jpg"
+    },
+      {
+      "id":2,
+      "name":"Buffy the Last Vampire Slayer",
+      "actual_price":300,
+      "discount_price":234,
+      "category":"comics_book",
+      "author":"Joanna Lafuente ",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Buffy the Last Vampire Slayer.jpg"
+    },
+     {
+      "id":3,
+      "name":"Crumbs",
+      "actual_price":250,
+      "discount_price":195,
+      "category":"comics_book",
+      "author":"Joanna",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Crumbs.jpg"
+    },
+     {
+      "id":4,
+      "name":"Devil's Reign A Marvel Event",
+      "actual_price":500,
+      "discount_price":390,
+      "category":"comics_book",
+      "author":"Marco Checcetto",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Devil's Reign A Marvel Event.jpg"
+    },
+      {
+      "id":5,
+      "name":"Injustice Year Zero",
+      "actual_price":400,
+      "discount_price":312,
+      "category":"comics_book",
+      "author":"Cian Tormey",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Injustice Year Zero.jpg"
+    },
+      {
+      "id":6,
+      "name":"Saga",
+      "actual_price":455,
+      "discount_price":354,
+      "category":"comics_book",
+      "author":"Sylke Hachmeister",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Saga.jpg"
+    },
+        {
+      "id":7,
+      "name":"Star Wars The High Republic Adventures, Vol. 2",
+      "actual_price":100,
+      "discount_price":78,
+      "category":"comics_book",
+      "author":"Cladia Gray",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Star Wars The High Republic Adventures, Vol. 2.jpg"
+    },
+       {
+      "id":8,
+      "name":"Supergirl Woman of Tomorrow",
+      "actual_price":600,
+      "discount_price":468,
+      "category":"comics_book",
+      "author":"Mat Lopes",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Supergirl Woman of Tomorrow.jpg"
+    },
+      {
+      "id":9,
+      "name":"Teenage Mutant Ninja Turtles The Last Ronin",
+      "actual_price":120,
+      "discount_price":93,
+      "category":"comics_book",
+      "author":"Kevin EastmanWelcome to St. Hell My Trans Teen Misadventure",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Teenage Mutant Ninja Turtles The Last Ronin.jpg"
+    },
+     {
+      "id":10,
+      "name":"Welcome to St. Hell My Trans Teen Misadventure",
+      "actual_price":150,
+      "discount_price":120,
+      "category":"comics_book",
+      "author":"Lewis Hancox",
+      "availibility":"Available",
+      "img_url":"assets/img/comics_book/Welcome to St. Hell My Trans Teen Misadventure.jpg"
+    },
+
+    {
+      "id":11,
+      "name":"Dead Water",
+      "actual_price":300,
+      "discount_price":234,
+      "category":"horror_story",
+      "author":"Ann Cleeves",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/Dead Water.jpg"
+    },
+     {
+      "id":12,
+      "name":"Just Like Home",
+      "actual_price":800,
+      "discount_price":778,
+      "category":"horror_story",
+      "author":"Sarah Gailey",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/Just Like Home.jpg"
+    },
+    
+    {
+      "id":13,
+      "name":"Old Country",
+      "actual_price":750,
+      "discount_price":585,
+      "category":"horror_story",
+      "author":"Cormac McCarthy",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/Old Country.jpg"
+    },
+    
+     {
+      "id":14,
+      "name":"Razorblades, Volume 1",
+      "actual_price":750,
+      "discount_price":585,
+      "category":"horror_story",
+      "author":"James Tynion IV",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/Razorblades, Volume 1.jpg"
+    },
+     {
+      "id":15,
+      "name":"The Ruins",
+      "actual_price":250,
+      "discount_price":195,
+      "category":"horror_story",
+      "author":"John Flanagan",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/The Ruins.jpg"
+    },
+    
+     {
+      "id":16,
+      "name":"Wake the Bones",
+      "actual_price":650,
+      "discount_price":507,
+      "category":"horror_story",
+      "author":"Elizabeth Kilcoyne",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/Wake the Bones.jpg"
+    },
+     {
+      "id":17,
+      "name":"What Moves the Dead",
+      "actual_price":150,
+      "discount_price":117,
+      "category":"horror_story",
+      "author":"T.Kingfisher",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/What Moves the Dead.jpg"
+    },
+     {
+      "id":18,
+      "name":"Youngblood",
+      "actual_price":900,
+      "discount_price":800,
+      "category":"horror_story",
+      "author":"Sasha Laurens",
+      "availibility":"Available",
+      "img_url":"assets/img/horror_story/Youngblood.jpg"
+    },
+     {
+      "id":19,
+      "name":"A Walk to Remember",
+      "actual_price":456,
+      "discount_price":350,
+      "category":"romantic_book",
+      "author":"Nicholas Sparks",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/A Walk to Remember.jpg"
+    },
+     
+     {
+      "id":20,
+      "name":"Love in the Time of Cholera",
+      "actual_price":120,
+      "discount_price":100,
+      "category":"romantic_book",
+      "author":"Edith Grossman",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/Love in the Time of Cholera.jpg"
+    },
+    {
+      "id":21,
+      "name":"outlander",
+      "actual_price":800,
+      "discount_price":750,
+      "category":"romantic_book",
+      "author":"Diana Gabaldon",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/outlander.jpg"
+    },
+     {
+      "id":22,
+      "name":"sylvia_day",
+      "actual_price":400,
+      "discount_price":350,
+      "category":"romantic_book",
+      "author":"Sylvia Day ",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/sylvia_day.jpg"
+    },
+     {
+      "id":23,
+      "name":"The Love Hypothesis",
+      "actual_price":150,
+      "discount_price":120,
+      "category":"romantic_book",
+      "author":"Ali Hazelwood",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/The Love Hypothesis.jpg"
+    },
+    {
+      "id":24,
+      "name":"The_Notebook_Cover",
+      "actual_price":140,
+      "discount_price":120,
+      "category":"romantic_book",
+      "author":"Rowan",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/The_Notebook_Cover.jpg"
+    },
+     {
+      "id":25,
+      "name":"The_Thorn_Birds",
+      "actual_price":420,
+      "discount_price":323,
+      "category":"romantic_book",
+      "author":"Rowan",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/The_Thorn_Birds.jpg"
+    },
+     {
+      "id":26,
+      "name":"You_Had_Me_At_Hola",
+      "actual_price":235,
+      "discount_price":135,
+      "category":"romantic_book",
+      "author":"Alexis Daria",
+      "availibility":"Available",
+      "img_url":"assets/img/romantic_book/You_Had_Me_At_Hola.jpg"
+    },
+      {
+      "id":27,
+      "name":"Bazyl i Licho",
+      "actual_price":487,
+      "discount_price":450,
+      "category":"story_books",
+      "author":"Marcin Minor",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/Bazyl i Licho.jpg"
+    },
+     {
+      "id":28,
+      "name":"Escape from Hat",
+      "actual_price":125,
+      "discount_price":100,
+      "category":"story_books",
+      "author":"Brian Taylor",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/Escape from Hat.jpg"
+    },
+     {
+      "id":29,
+      "name":"J.R. Silver Writes Her World",
+      "actual_price":655,
+      "discount_price":500,
+      "category":"story_books",
+      "author":"Brian Taylor ",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/J.R. Silver Writes Her World.jpg"
+    },
+     {
+      "id":30,
+      "name":"Lumberjackula",
+      "actual_price":78,
+      "discount_price":60,
+      "category":"story_books",
+      "author":"Mat Heagerty",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/Lumberjackula.jpg"
+    },
+     {
+      "id":31,
+      "name":"Lumber-Jackula",
+      "actual_price":121,
+      "discount_price":109,
+      "category":"story_books",
+      "author":"Sam Owen",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/Lumber-Jackula.jpg"
+    },
+     {
+      "id":32,
+      "name":"Monsters in the Fog",
+      "actual_price":321,
+      "discount_price":125,
+      "category":"story_books",
+      "author":"Ali Bahrampour",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/Monsters in the Fog.jpg"
+    },
+    {
+      "id":33,
+      "name":"The Elephant Girl",
+      "actual_price":123,
+      "discount_price":111,
+      "category":"story_books",
+      "author":"James Patterson",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/The Elephant Girl.jpg"
+    },
+     {
+      "id":34,
+      "name":"Two Dogs",
+      "actual_price":155,
+      "discount_price":125,
+      "category":"story_books",
+      "author":"Jon Katz",
+      "availibility":"Available",
+      "img_url":"assets/img/story_books/Two Dogs.jpg"
+    }
+    ],
+    "user":[
+      {
+        "username":"rajesh@123",
+        "password":"123545jjaf"
+      }
+    
+      ]
+    
+}

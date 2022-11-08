@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ background:linear-gradient(90deg, rgba(241, 207, 218, 0.8),#9a39c0);
+ cursor: pointer;
+
+}
+input{
+   border: none;
+   outline: none;
+}
+.name{
+
+    padding: 10px 200px 10px 20px;
+    border-radius: 100px;
+    box-shadow:  3px 3px 10px 1px rgb(110, 110, 110);
+}
+.email{
+
+    padding: 10px 200px 10px 20px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px 1px rgb(110, 110, 110);
+}
+.password{
+
+    padding: 10px 200px 10px 20px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px 1px rgb(110, 110, 110);
+}
+i{
+    color:#7703b9 ;
+    font-size: 25px;
+}
+input[type=checkbox]{
+ accent-color: #9a39c0;
+}
+.term{
+    color:#8906bde1 ;
+}
+span{
+    color: rgba(156, 151, 151, 0.801);
+}
+.already a{
+    color: #9a39c0;
+}
+
+
+@media (max-width:768px) {
+    .name{
+
+        padding:10px 120px 10px 20px;
+  
+    }
+    .email{
+
+        padding:10px 120px 10px 20px;
+  
+  
+    }
+    .password{
+
+        padding:10px 120px 10px 20px;
+  
+  
+    }
+    
+
+}
+form{
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 50px;
+}
+
+.createaccount button{
+    padding: 5px 40px;
+    border-radius: 50px;
+    background:linear-gradient(185deg, rgb(247, 0, 255),#730b9c);
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #bf55e9;
+
+}
+.createaccount button:active{
+    transform: scale(0.8,0.8);
+    transition: all 0.1s;
+}
+

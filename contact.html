@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+    <title>bookstore</title>
+</head>
+<body>
+
+  <div class="loader">
+    <img src="assets/img/loading.gif" alt="loading">
+  </div>
+  
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <span class="navbar-brand"><img src="assets/img/logo.png" alt=""></span>
+          <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+            <span><i class="fa-solid fa-xmark"></i></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  our book
+                </a>
+                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="category.html?category=comics_book">Comics_book</a></li>
+                  <li><a class="dropdown-item" href="category.html?category=horror_story">horror_story</a></li>
+                  <li><a class="dropdown-item" href="category.html?category=romantic_book">romantic_book</a></li>
+                  <li><a class="dropdown-item" href="category.html?category=story_books">story_books</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact us</a>
+              </li>
+    
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+
+      
+      <h1 class="text-center my-5 heading">contact us</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form method="post" class="needs-validation" novalidate>
+            <div class="background">
+            <label for="name" class="form-label">Fullname<span>*</span></label>
+            <input type="text" id="name" class="form-control" required >
+            <div class="invalid-feedback">
+                Please provide a Fullname .
+              </div>
+            </div>
+              
+            <div class="background">
+            <label for="company" class="form-label">Company<span>*</span></label>
+            <input type="text" id="company" class="form-control" required>
+            <div class="invalid-feedback">
+                Please provide a Company.
+              </div>
+            </div>
+
+ <div class="background">
+            <label for="telephone" class="form-label">Telephone<span>*</span></label >
+            <input type="text" id="telephone" class="form-control" required>
+            <div class="invalid-feedback">
+                Please provide a Telephone.
+              </div>
+            </div>
+
+            <div class="background">
+            <label for="email" class="form-label">Email<span>*</span></label>
+            <input type="text" id="email" class="form-control" required>
+            <div class="invalid-feedback">
+                Please provide a valid Emailid.
+              </div>
+            </div>
+
+            <div class="background">
+            <label for="message" class="form-label">message<span>*</span></label>  
+            <textarea  id="message"  rows="6" class="form-control" required></textarea>
+            <div class="invalid-feedback">
+                Please provide a message.
+              </div>
+            </div>
+
+            <input type="submit" value="send message " class="my-2 submit">  
+           
+        </form>
+       
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="map">
+                <h5 class="text-white">Our Location</h5>
+                <div class="background">
+                    <p class="text-white fw-bold fs-5">Reach us</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.193353077157!2d72.95225051479652!3d19.186755453467963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b902ff48f9fd%3A0xea7d3a1ca046bb33!2sWagle%20Estate%2C%20Shivaji%20Nagar%2C%20Kisan%20Nagar%201%2C%20Thane%20West%2C%20Thane%2C%20Maharashtra%20400080!5e0!3m2!1sen!2sin!4v1661437251588!5m2!1sen!2sin" width="100%" height="260" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+            <div class="social my-4">
+                <h4  class="text-white">Stay in Touch</h4>
+                <div class="background">
+                    <p class="text-white">social icons</p>
+<div class="social-icons text-center bg-white p-3">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+  
+</div>
+
+
+
+<footer>
+  <div class="footer">
+     <div class="container">
+        <div class="row pdn-top-30">
+           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+              <div class="Follow">
+                 <h3>Follow Us</h3>
+              </div>
+              <ul class="location_icon">
+                 <li> <a href="#"><img src="assets/img/facebook.png"></a></li>
+                 <li> <a href="#"><img src="assets/img/Twitter.png"></a></li>
+                 <li> <a href="#"><img src="assets/img/linkedin.png"></a></li>
+                 <li> <a href="#"><img src="assets/img/instagram.png"></a></li>
+              </ul>
+           </div>
+           <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+              <div class="Follow">
+                 <h3>Newsletter</h3>
+              </div>
+              <input class="Newsletter" placeholder="Enter your email" type="Enter your email">
+              <button class="Subscribe">Subscribe</button>
+           </div>
+        </div>
+     </div>
+  </div>
+  <div class="copyright">
+     <div class="container">
+        <p>Copyright 2019 All Right Reserved By</p>
+     </div>
+  </div>
+</footer>
+
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>

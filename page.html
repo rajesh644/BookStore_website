@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/page.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+    <title>Bookstore</title>
+</head>
+
+<body>
+ 
+    
+
+  <div class="loader">
+    <img src="assets/img/loading.gif" alt="loading">
+  </div>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-12">
+        <button class="float-end fs-1 mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-plus text-dark "></i></button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Total Item:- <strong id="item">0</strong></h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div  id="cart" >
+                  
+                    </div>
+                </div>
+              
+            
+            </div>
+          </div>
+  </div>
+</div>
+</div>
+ 
+ 
+    <div class="container my-5">
+        <div class="row gy-5">
+          
+            <div class="col-12 col-md-4">
+                <div class="image border border-2 text-center p-4 img-fluid">
+                    <img src="" alt="book1" id="book_img" class=" img-fluid ">
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-8">
+          
+                <div class="info">
+                    <h3 id="bookName">12 Rules for Life: An Antidote to Chaos</h3>
+                    <h6 id="author">Author: <span class="fw-light">Jordan B.Peterson</span></h6>
+                    <h6>Publisher: <span class="fw-light">penguin Random House India Pvt. Ltd.</span></h6>
+                    <span><i class="fa-solid fa-indian-rupee-sign "></i><span id="discount_price" class="fs-3 fw-bold">467</span></span>
+                    <strike> <span class="mx-4"><i class="fa-solid fa-indian-rupee-sign "></i><span id="actual_price"
+                                class="fs-5">599</span></span></strike>
+                    <span class="fw-bold fs-5 mx-2 offer">22% OFF</span>
+                    <p class="fw-light">Availability: Available</p>
+                    <p class="fw-light">Shipping-Time: Same Day Dispatch</p>
+                    <button class="Buy"><i class="fa-solid fa-cart-plus"></i>Buy Now</button>
+                       <button class="mx-2 add" onclick="addCart()"><i class="fa-solid fa-cart-plus"></i> Add to cart</button>
+                     
+                </div>
+                <div class=""> 
+                    <h3 class="fw-light my-4">Rating and Reviews</h3>
+
+                    <div class="rating ">
+                        <ul>
+                            <li><a class="star1" onclick="stars1()"><i class="fa-solid fa-star fs-4"></i></a></li>
+                            <li><a class="star2" onclick="stars2()"><i class="fa-solid fa-star fs-4"></i></a></li>
+                            <li><a class="star3" onclick="stars3()"><i class="fa-solid fa-star fs-4"></i></a></li>
+                            <li><a class="star4" onclick="stars4()"><i class="fa-solid fa-star fs-4"></i></a></li>
+                            <li><a class="star5" onclick="stars5()"><i class="fa-solid fa-star fs-4"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="msg ">
+                        <p class="p1 fs-4 fst-italic">you give 1 STAR rating</p>
+                        <p class="p2 fs-4 fst-italic">you give 2 STAR rating</p>
+                        <p class="p3 fs-4 fst-italic">you give 3 STAR rating</p>
+                        <p class="p4 fs-4 fst-italic">you give 4 STAR rating</p>
+                        <p class="p5 fs-4 fst-italic">you give 5 STAR rating</p>
+                    </div>
+
+                    <div class="success animate__animated animate__zoomIn float-start">
+                        <h2 class="fst-italic ">Thanks for rating us.</h2>
+                    </div>
+                    <div class="button ">
+                        <button onclick="submit()" class="btn btn-outline-primary">submit</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-12">
+                <div class="list my-3">
+                    <li id="about-book" class="fw-bolder active">ABOUT THE BOOK</li>
+                    <li id="about-author" class="fw-bolder">ABOUT THE AUTHOR</li>
+                    <li id="product" class="fw-bolder">PRODUCT SPECIFICATIONS</li>
+                    <li id="reviews" class="fw-bolder">REVIEWS</li>
+                </div>
+                <div class="content-book fw-light">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Unde, doloribus accusamus! Nisi harum debitis illo facere
+                        laudantium iste ducimus sequi!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.</p>
+                </div>
+
+                <div class="content-author fw-light">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium
+                        autem repellat ad libero facilis sapiente minima harum dolorum Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Unde, doloribus accusamus! Nisi harum debitis illo facere
+                        laudantium iste ducimus sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quidem consequatur natus autem illo asperiores rem ratione ex dolorem, atque necessitatibus?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias iusto aperiam minima
+                        necessitatibus facilis vero, illum labore? Nam, dolor?Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Ducimus dolore iste dicta eos rem qui odio dolores pariatur.
+                        Neque corporis beatae, eveniet debitis ipsam modi. Pariatur, consequatur obcaecati fugit
+                        labore laboriosam magnam facilis sunt accusantium magni unde? At voluptatum dignissimos eos
+                        similique ullam voluptatibus commodi enim. Facere magnam rerum numquam! Lorem, ipsum dolor
+                        sit amet consectetur adipisicing elit. Officiis sequi, fuga quae perspiciatis alias
+                        repudiandae veritatis libero voluptatum soluta. Quos minus esse quisquam adipisci facilis ab
+                        sed possimus delectus, odit cupiditate neque cum, asperiores maiores nisi quod molestiae
+                        voluptates natus? Aut, tempora fugiat. Quis fugiat placeat repellendus quibusdam nihil,
+                        quasi porro quas quia praesentium sint iure similique id rerum dolore impedit error
+                        inventore dignissimos at sequi delectus? Doloribus eligendi, sequi quaerat neque beatae,
+                        libero maiores quidem asperiores voluptate reiciendis nisi exercitationem assumenda
+                        consectetur est. Delectus ad, fugiat facere cum perferendis non omnis, eaque expedita
+                        voluptatum officiis tenetur sed voluptates ratione?
+                    </p>
+
+                </div>
+
+                <div class="content-product fw-light">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at praesentium autem
+                        repellat ad libero facilis sapiente minima harum dolorum.</p>
+
+                </div>
+
+                <div class="content-reviews fw-light">
+                    <h5 class="fw-light">NO REVIEWS FOUND</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+             
+
+                <div class="fimg"> </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/page.js"></script>
+</body>
+
+</html>
